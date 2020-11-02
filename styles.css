@@ -1,0 +1,95 @@
+a {
+    color: black;
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    margin-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.buttons {
+    margin: 30px;
+}
+
+.ind-buttons {
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    background-color: #F5F5F5;
+}
+
+.ind-buttons:hover {
+    border: 1px solid black;
+    background-color: #F5F5F5;
+}
+
+.logo {
+    padding-top: 100px;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.nav-left  {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav-right {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.searchbar {
+    outline: none;
+    border: 1px solid grey;
+        border-top-color: grey;
+        border-right-color: grey;
+        border-bottom-color: grey;
+        border-left-color: grey;
+    border-radius: 25px;
+    border-color: silver;
+    margin-top: 30px;
+    padding: 0 30px;
+    height: 40px;
+    width: 500px;
+    font-size: 14px;
+}
+
+.sign-in {
+    color: white;
+    background-color: #4c8bf5;
+    border: none;
+    border-radius: 5%;
+    padding: 10px 15px;
+    font-weight: bold;
+
+}
+
+#grid-icon {
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
